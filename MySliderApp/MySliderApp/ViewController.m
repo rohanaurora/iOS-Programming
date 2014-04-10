@@ -17,7 +17,7 @@
 
 -(IBAction) userSlide {
     
-myLbl.text = [NSString stringWithFormat:@"Sensitivity - %0.1f",mySlider.value];
+myLbl.text = [NSString stringWithFormat:@"Values are here - %0.1f",mySlider.value];
     
 }
 
