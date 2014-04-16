@@ -1,0 +1,43 @@
+//
+//  ViewController.m
+//  MyPauseApp
+//
+//  Created by Rohan Aurora on 4/16/14.
+//  Copyright (c) 2014 Rohan Aurora. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pauseTheGame) name:@"BackgroundMode" object:nil];
+    
+}
+
+-(void) pauseTheGame {
+    
+    myLabel.text = @"Game Paused. Press key!";
+}
+
+-(IBAction) clickButton {
+    
+    myLabel.text = @"Game Running";
+}
+
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end
