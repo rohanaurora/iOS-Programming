@@ -1,0 +1,1 @@
+MyDelegatesApp is a very simple app which uses UITextViewDelegate protocol. The text, label, buttons and background have been added programmatically.
