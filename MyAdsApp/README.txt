@@ -1,9 +1,10 @@
-<p>A simple app which includes the following -</p>
+A simple app which includes the following -
 
-<p>1) Banner iAd</p>
-<p>2) Google AdMob(banner)</p>
-<p>3) Google AdMob(interstitial)</p>
+1) Banner iAd
+2) Google AdMob(banner)
+3) Google AdMob(interstitial)
 
+References -
 
 iAd Programming Guide:
 https://developer.apple.com/iad/resources/
