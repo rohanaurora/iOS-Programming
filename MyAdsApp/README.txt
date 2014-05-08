@@ -1,13 +1,13 @@
-============================
-Google AdMob Ads SDK for iOS
-============================
+<p>A simple app which includes the following -</p>
 
-This is the Google AdMob Ads SDK for iOS.
+<p>1) Banner iAd</p>
+<p>2) Google AdMob(banner)</p>
+<p>3) Google AdMob(interstitial)</p>
 
-Requirements:
-- An AdMob site ID or DoubleClick for Publishers account.
-- Xcode 5.1 or later.
-- Runtime of iOS 5.0 or later.
 
-The latest documentation and code samples are available at:
+iAd Programming Guide:
+https://developer.apple.com/iad/resources/
+
+
+Google AdMob Ads SDK for iOS:
 https://developers.google.com/mobile-ads-sdk/docs/
