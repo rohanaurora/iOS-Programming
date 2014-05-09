@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "AppDelegate.h"
 
-@interface ViewController () <ADBannerViewDelegate>
+@interface ViewController () 
 
 @end
 
@@ -93,8 +93,6 @@
     [self.appleAd setAlpha:0];
     [UIView commitAnimations];
 }
-
-
 
 
 @end

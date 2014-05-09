@@ -12,7 +12,7 @@
 #import <iAd/iAd.h>
 
 
-@interface ViewController : UIViewController <GADInterstitialDelegate>  {
+@interface ViewController : UIViewController <GADInterstitialDelegate, ADBannerViewDelegate>  {
 
 GADBannerView *bannerView_;
 GADInterstitial *interstitial_;
