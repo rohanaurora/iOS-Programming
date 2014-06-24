@@ -58,7 +58,10 @@
     
     
     // Button Code
-    UIButton *myButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    
+    UIButton *myButton = [[UIButton alloc] init];
+    
+    myButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     
     myButton.frame = CGRectMake(110, 130, 100, 40);
     
