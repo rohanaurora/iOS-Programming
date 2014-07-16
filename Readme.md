@@ -1,1 +1,3 @@
-This is the repository of all my iOS programming projects.
+#iOSDev
+
+This is a small repository of my iOS programming projects.
