@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) UIImageView *imageview;
 @end
 
 @implementation ViewController
