@@ -19,15 +19,15 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor orangeColor];
-    CGRect myImageRect = CGRectMake(0, 0, 100, 100);
-    self.imageview = [[UIImageView alloc] initWithFrame:myImageRect];
+    CGRect imageCursor = CGRectMake(0, 0, 100, 100);
+    self.imageview = [[UIImageView alloc] initWithFrame:imageCursor];
     [self.imageview setImage:[UIImage imageNamed:@"swift.png"]];
     [self.view addSubview:self.imageview];
     
 }
 
 
--(void)touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event
+- (void)touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event
 {
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint touchLocation = [touch locationInView:touch.view];
